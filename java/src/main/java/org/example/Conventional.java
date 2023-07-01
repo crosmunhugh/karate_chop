@@ -1,6 +1,6 @@
 package org.example;
 
-public class Conventional {
+public class Conventional extends AbstractChop {
     public Integer chop(Integer searchTarget, Integer[] sortedIntegerArray) {
        int low = 0;
        int high = sortedIntegerArray.length-1;

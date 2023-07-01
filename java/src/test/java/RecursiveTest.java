@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ConventionalTest {
+public class RecursiveTest {
     private AbstractChop chopper = new Conventional();
 
     @Test
@@ -73,5 +73,4 @@ public class ConventionalTest {
         assertEquals(chopper.chop(6,new Integer[]{1,3,5,7}),-1);
         assertEquals(chopper.chop(8,new Integer[]{1,3,5,7}),-1);
     }
-
 }
