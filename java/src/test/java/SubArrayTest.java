@@ -1,12 +1,12 @@
 import org.example.AbstractChop;
 import org.example.Conventional;
-import org.example.Recursive;
+import org.example.SubArray;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RecursiveTest {
-    private AbstractChop chopper = new Recursive();
+public class SubArrayTest {
+    private AbstractChop chopper = new SubArray();
 
     @Test
     public void emptyArrayIsNegativeOne() {
